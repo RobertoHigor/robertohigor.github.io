@@ -7,12 +7,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href=src/css/bootstrap-social.css>
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
         <title>Portfolio - Roberto Higor</title>    
 </head>
 <body>
-    <header class="site-header">
-            <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">            
+    <header class="site-header pb-5">
+            <nav class="navbar navbar-expand-md navbar-dark bg-info fixed-top">            
                 <div class="container">
                 <a class="navbar-brand mr-4" href="#">Meu Portfolio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,11 +34,24 @@
                 </div>
             </nav>
         </header>
-    <main role="main" class="container">        
-            
-<div class="pt-3 pb-5">
+<main role="main" class="container"> 
+
+<div class="row pb-5">
+<div class="col-md-8">
 	<img class="img-fluid mx-l mt-5 d-block" height="150px" width="150px" src="src/imagens/perfil.jpeg" alt="Foto Perfil">
 	<h3 class="text-left">Roberto Higor Matos dos Anjos</h3>
+</div>
+
+	<div class="col-md-4 pt-5">
+		<h3>Contato</h3>
+		<a href="https://www.linkedin.com/in/robertohigor/" class="btn btn-social btn-linkedin">
+			<span class="text-light fa fa-linkedin"></span>RobertoHigor
+		</a>
+		<a href="https://github.com/RobertoHigor/" class="btn btn-social btn-github">
+			<span class="text-light fa fa-github"></span>RobertoHigor
+		</a>
+		</p>
+	</div>     
 </div>
 
 <h4 class="text-left">Trabalho de conclusão de curso</h4>
@@ -46,7 +62,8 @@
       <div class="card-body">		
         <h5 class="card-title">Repositório Arduino/Python</h5>
         <p class="card-text">Contendo a aplicação Python responsável pela comunicação do Arduino além do código do Arduino.</p>
-        <a href="https://github.com/RobertoHigor/TCC---Comunica-o-Python-com-Arduino" class="btn btn-primary">Github</a>
+        <a href="https://github.com/RobertoHigor/TCC---Comunica-o-Python-com-Arduino" class="btn btn-outline-primary">Github</a>
+		<a href="https://gitlab.com/RobertoHigor/tcc-roberto" class="btn btn-outline-danger">Gitlab</a>
       </div>
     </div>
   </div>
@@ -55,12 +72,14 @@
       <div class="card-body">
         <h5 class="card-title">Repositório Django</h5>
         <p class="card-text">Contendo a aplicação WEB feita utilizando o framework Django que resultou nesta página.</p>
-        <a href="https://github.com/RobertoHigor/TCC---Django-framework" class="btn btn-primary">Github</a>
+        <a href="https://github.com/RobertoHigor/TCC---Django-framework" class="btn btn-outline-primary">Github</a>
+		<a href="https://gitlab.com/RobertoHigor/tcc-roberto-web" class="btn btn-outline-danger">Gitlab</a>
       </div>
     </div>
   </div>
+ 
 </div>
 			
-    </main>
+ </main>
 </body>
 </html>
