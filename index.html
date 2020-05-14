@@ -7,7 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" href=src/css/bootstrap-social.css>
+	<link rel="stylesheet" href=src/css/index.css>
 	<!-- Add icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       
@@ -36,13 +38,13 @@
         </header>
 <main role="main" class="container"> 
 
-<div class="row pb-5">
+<div class="row pb-4">
 <div class="col-md-8">
 	<img class="img-fluid mx-l mt-5 d-block" height="150px" width="150px" src="src/imagens/perfil.jpeg" alt="Foto Perfil">
 	<h3 class="text-left">Roberto Higor Matos dos Anjos</h3>
 </div>
-
 	<div class="col-md-4 pt-5">
+
 		<h3>Contato</h3>
 		<a href="https://www.linkedin.com/in/robertohigor/" class="btn btn-social btn-linkedin">
 			<span class="text-light fa fa-linkedin"></span>RobertoHigor
@@ -53,15 +55,31 @@
 		</p>
 	</div>     
 </div>
+<div class="col-md-9">
+	<h4 class="text-left">Trabalho de conclusão de curso</h4>
 
-<h4 class="text-left">Trabalho de conclusão de curso</h4>
+	<p class="indent mr-4">
+	Consistiu em um projeto de fechadura eletrônica e controle de acesso utilizando Arduino. Para capturar as senhas, foi utilizado um módulo de teclado. O projeto foi utilizado no laboratório da FAETERJ - Petrópolis.
+	</p>
+	<p class="indent mr-4">
+	Cada usuário no sistema possuí uma senha customizada, que é gerada após a realização do cadastro. A página de cadastro também é responsável por exibir os acessos, caso o usuário tenha a permissão de visualizar, a fim de detectar acessos indevidos as salas.
+	</p>
+	<div class="font-weight-bold">O projeto ao todo possuí em 3 aplicações, sendo então:</div>
+	 <ul>
+	  <li>Aplicação Desktop em Python para comunicação com o banco de dados;</li>
+	  <li>Aplicação web com Django para cadastro e listagem de acessos; </li>
+	  <li>Aplicação Arduino para envio dos dados de um teclado numérico;</li>
+	</ul> 
 
-<div class="row">
+	Artigo: 
+	<a href="src/arquivos/TCC_Roberto_Faeterj.pdf" class="btn btn-outline-danger">PDF</a> 
+</div>
+<div class="row pt-2">
   <div class="col-sm-6">
     <div class="card">
       <div class="card-body">		
         <h5 class="card-title">Repositório Arduino/Python</h5>
-        <p class="card-text">Contendo a aplicação Python responsável pela comunicação do Arduino além do código do Arduino.</p>
+        <p class="card-text">Aplicação Arduino além da aplicação Desktop responsável pela comunicação com o banco de dados.</p>
         <a href="https://github.com/RobertoHigor/TCC---Comunica-o-Python-com-Arduino" class="btn btn-outline-primary">Github</a>
 		<a href="https://gitlab.com/RobertoHigor/tcc-roberto" class="btn btn-outline-danger">Gitlab</a>
       </div>
@@ -71,7 +89,7 @@
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Repositório Django</h5>
-        <p class="card-text">Contendo a aplicação WEB feita utilizando o framework Django que resultou nesta página.</p>
+        <p class="card-text">Aplicação web desenvolvida utilizando o framework Django.</p>
         <a href="https://github.com/RobertoHigor/TCC---Django-framework" class="btn btn-outline-primary">Github</a>
 		<a href="https://gitlab.com/RobertoHigor/tcc-roberto-web" class="btn btn-outline-danger">Gitlab</a>
       </div>
